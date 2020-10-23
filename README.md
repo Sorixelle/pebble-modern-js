@@ -10,4 +10,6 @@ normally would in a JS project.
 Some libraries (notably Firebase) might not work on the emulator. This is
 because the emulator's JS runtime is very old and minimal, and doesn't support
 all features that a browser environment would normally have, such as IndexedDB.
-These apps will still work on a real phone and Pebble, however.
+These apps will likely work when used on an Android phone, but may not work on
+an iOS device. For this reason, it's not recommended to use libraries that
+don't work on the emulator in a deployed app.
